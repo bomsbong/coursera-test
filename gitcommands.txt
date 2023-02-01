@@ -1,0 +1,19 @@
+git status (to check status of git repo)
+
+git clone (to clone a repo)
+
+git add (to add files to the staging area)
+
+git commit -m "" (to add a message about the new commit)
+
+git push (to push the changes to the server)
+
+git push -u origin feature/lesson (this command gets updates only on the feature/lesson branch)
+
+git checkout -B feature/lesson (creates a branch name feature/lesson and moves you to that branch)
+
+git checkout "branch name" (moves you to that branch)
+
+git pull (pulls the changes on the current branch)
+
+
