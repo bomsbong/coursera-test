@@ -1,0 +1,8 @@
+Git Workflow
+
+1. git pull (to pull the latest version of the repo)
+2. git checkout -b feature/my-new-feature (to create a new branch for your code, so you won't directly push the changes to the main branch)
+3. git add . 
+4. git add README.md (to create a readme file on your branch)
+5. git commit -m "Commit Message" (commit the file and add a commit message).
+6. git push -u origin feature/my-new-feature (to push the new file to your branch)

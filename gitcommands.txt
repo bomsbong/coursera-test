@@ -8,6 +8,8 @@ git commit -m "" (to add a message about the new commit)
 
 git push (to push the changes to the server)
 
+git push origin main (this command pushes the changes or updates to the main branch)
+
 git push -u origin feature/lesson (this command gets updates only on the feature/lesson branch)
 
 git checkout -B feature/lesson (creates a branch name feature/lesson and moves you to that branch)
@@ -15,5 +17,17 @@ git checkout -B feature/lesson (creates a branch name feature/lesson and moves y
 git checkout "branch name" (moves you to that branch)
 
 git pull (pulls the changes on the current branch)
+
+git diff (shows the updates/changes on a file )
+
+git diff main "branch name" (to display differences on 2 branch)
+
+git log --pretty=oneline  (logs all the commit on the repo and displays it on one line)
+
+git blame "file" (shows the list of commit ID, author, date, timestamp, line number, and content changes on that file).
+
+git blame -L 5 15 "file" (-L 5 15 flag shows the list from line 5 to 15)  
+
+
 
 
